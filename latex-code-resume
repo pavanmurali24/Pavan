@@ -1,0 +1,117 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[a4paper,margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Molli Pavan Murali}} \\[4pt]
+    Email: \href{mailto:2351145@cognizant.com}{pavanmurali24@gmail.com}\hspace{0.5em}|\hspace{0.5em}
+    Mobile: +91 8185919410 \\[4pt]
+    Location: Visakhapatnam, Andhra Pradesh, 530046 \\[4pt]
+    LinkedIn: \href{https://www.linkedin.com/in/pavan-murali-molli-896185215}{linkedin.com/in/pavan-murali-molli-896185215}
+\end{center}
+
+\vspace{0.2cm}
+
+\section*{Professional Summary}
+
+Results-driven Backend \& AI-Assisted Engineer with 2+ years of hands-on experience designing, migrating, and modernizing cloud-native applications across multi-cloud ecosystems (Azure and GCP). Certified Azure Developer (AZ-204) with a proven track record of executing complex framework upgrades up to .NET 10, incorporating Generative AI tools like GitHub Copilot to optimize development workflows and accelerate legacy code migration. Adept at building secure cloud integrations, identity management systems, and exploring advanced AI methodologies including context engineering, chatflows, and agentic workflows to drive system efficiency.
+
+\section*{Technical Skills}
+
+\textbf{AI \& Generative AI:} Context Engineering, Agentic Workflows (Agentflows), Chatflows, LLM Prompt Engineering, Retrieval-Augmented Generation (RAG) concepts. \
+
+\textbf{AI Tooling \& Integration:} GitHub Copilot (AI-assisted development), Gemini AI (AI-assisted testing, analysis.)
+
+\textbf{Backend Technologies:} C\#, .NET Core, .NET 10, ASP.NET Framework, MS SQL Server, REST APIs. \
+
+\textbf{Cloud \& Infrastructure:} Microsoft Azure (Logic Apps, Function Apps, API Management, Storage Accounts, Key Vault), Google Cloud Platform (Google Cloud Storage, GSM, AppEngine, CloudRun). \
+
+\textbf{Architecture \& Security:} Authentication modernization (IdentityServer4 to Duende), Legacy system upgrades, Document management workflows. \
+
+\textbf{Languages Known:} English, Telugu, Hindi.
+
+\section*{Professional Experience}
+
+\textbf{Cognizant} \hfill \textbf{September 2024 -- Present} \\
+\textit{Programmer Analyst / .NET Backend Developer with multi-cloud expertise}
+
+\begin{itemize}
+    \item Leveraged Generative AI and GitHub Copilot via advanced prompt engineering to accelerate the legacy code refactoring and modernization from .NET 3.1 to .NET 10, reducing code-migration timelines and identifying optimization patterns.
+    
+    \item Engineered and executed the migration of identity management systems from IdentityServer4 to Duende, ensuring robust access control across cloud environments.
+
+    \item Engineered and deployed a scalable integration service utilizing C Sharp and Google Cloud Storage (GCS) APIs to handle secure, high-throughput file uploads and multi-cloud data synchronization.
+    
+    \item Designed and maintained database schemas and queries in MS SQL to support high-volume data retrieval and storage across multi-cloud integrations utilizing both Azure and GCP.
+\end{itemize}
+
+\vspace{0.2cm}
+
+\textbf{Cognizant} \hfill \textbf{April 2024 -- September 2024} \\
+\textit{CSD Intern}
+
+\begin{itemize}
+    \item Successfully completed an intensive training program focused on the .NET and Azure ecosystems.
+    
+    \item Acquired strong foundational and technical knowledge in ASP.NET Framework, SQL, and Azure cloud services.
+\end{itemize}
+
+\section*{Key Projects}
+
+\textbf{Document Approval System using Microsoft Azure Services}
+
+\begin{itemize}
+    \item Implemented an automated workflow where uploaded documents trigger email notifications for review utilizing Azure Logic Apps and Function Apps.
+    
+    \item Configured automated routing to instantly move documents to an approved folder upon successful review, or safely reject them otherwise.
+    
+    \item Created a robust REST API via Azure API Management to securely retrieve document counts and names.
+    
+    \item Utilized Azure Storage Accounts and Key Vault to streamline document management processes, successfully enhancing efficiency and security.
+\end{itemize}
+
+\vspace{0.2cm}
+
+\textbf{Parametric Optimization using ABC Algorithm}
+
+\begin{itemize}
+    \item Leveraged an ABC-like global optimization algorithm to accurately determine the optimal parametric settings for various machining processes.
+    
+    \item Successfully enhanced machining performance for real-time manufacturing environments through data-driven parametric tuning.
+\end{itemize}
+
+\section*{Certifications}
+
+\begin{itemize}
+    \item Microsoft Certified: Azure Developer Associate (AZ-204)
+    \item Context Engineering Certification
+    \item Anthropic Claude Code 101 Certification
+\end{itemize}
+
+\section*{Education}
+
+\begin{itemize}
+    \item \textbf{B. Tech in Mechanical Engineering} \\
+    Raghu Engineering College \hfill 2020 -- 2023 \\
+    CGPA: 8.65
+
+    \item \textbf{Diploma} \\
+    Government Polytechnic Visakhapatnam \hfill 2017 -- 2020 \\
+    Percentage: 84.58\%
+
+    \item \textbf{SSC} \\
+    Chaitanya Public School \hfill 2017 \\
+    CGPA: 10
+\end{itemize}
+
+\end{document}
